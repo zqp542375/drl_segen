@@ -50,7 +50,7 @@ Before generating sequences on HoloToken.sol and the testing contracts from the 
  run gen_on_small_dataset.py to genenrate sequences for 8 testing contracts from the samll dataset
 ```
 
-Note that the contract data (collected from the small dataset and sGuard dataset) required to construct the game are already collected and available to use. 
+Note that the contract data ([collected](https://github.com/zqp542375/drl_contract_data_preparation.git) from the small dataset and sGuard dataset) required to construct the game are already collected and saved in json files in "./segen/contract_env_data/". 
 
 An example of running 5 episodes on a game instance constructed from contract HoloToken_test_01.sol with the target node burn():
 ```consol
